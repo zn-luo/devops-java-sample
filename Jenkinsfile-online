@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'registry-tcl-move'
-        GITHUB_CREDENTIAL_ID = 'github'
+        DOCKER_CREDENTIAL_ID = 'harbord-id'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'registry.tcl-move.com'
         DOCKERHUB_NAMESPACE = 'library'
